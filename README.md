@@ -20,13 +20,15 @@ You may need to restart your MMP
 ### Building
 To build fresh from the source, i've included a mk.sh file that you can run from a docker image, the best docker image to use i've found is:
 
-```git clone https://github.com/shauninman/union-miyoomini-toolchain.git
+```
+git clone https://github.com/shauninman/union-miyoomini-toolchain.git
 cd union-miyoomini-toolchain
-make shell```
+make shell
+```
 
 copy the mk.sh file to your workspace
 
-```source mk.sh```
+`source mk.sh`
 
 This will build the requirements with NO audio backends, it will rely on the audiobridge.
 
