@@ -67,6 +67,8 @@ This will build the requirements with NO audio backends, it will rely on the aud
 ### Key bindings
 ## These are the key bindings due to how the terminal app (and ncspot) are setup
 
+https://github.com/hrkfdn/ncspot/blob/main/doc/users.md#vim-like-commands this is the full list, you can pull up the keyboard with the X button and use these commands
+
 - Start button - play song
 - Arrow keys - navigate
 - "Backspace" = "quit" # This is the R2 button
