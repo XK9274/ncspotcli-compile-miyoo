@@ -1,6 +1,6 @@
 # ncspot Spotify client for the MMP.
 ## audiobridge - https://github.com/XK9274/audiobridge-miyoo
-## splash - https://github.com/XK9274/splash-miyoo/blob/main/main.c
+## splash - https://github.com/XK9274/splash-miyoo
 
 - Bit of a novelty/gimmick this app really but it's been a fun build/process and i've learnt a lot about the MMP/embedded environment from it.
 - If you have a lot of background apps running (filebrowser etc) it may be worth killing them to free up some memory
