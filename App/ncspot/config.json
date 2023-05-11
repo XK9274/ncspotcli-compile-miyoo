@@ -1,0 +1,7 @@
+{
+"label":"Spotify",
+"icon":"logos/icon.png",
+"iconsel":"",
+"launch":"launch.sh",
+"description":"Spotify client (ncspot)"
+}

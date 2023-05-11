@@ -1,0 +1,36 @@
+backend = "subprocess"
+backend_device = "/mnt/SDCARD/App/ncspot/bin/audiobridge"
+
+[theme]
+background = "black"
+primary = "light white"
+secondary = "light black"
+title = "green"
+playing = "green"
+playing_selected = "black"
+playing_bg = "black"
+highlight = "light white"
+highlight_bg = "light green"
+error = "light white"
+error_bg = "red"
+statusbar = "black"
+statusbar_progress = "green"
+statusbar_bg = "green"
+cmdline = "light white"
+cmdline_bg = "black"
+search_match = "light red"
+
+statusbar_format = "%title - %artists"
+
+[track_format]
+left = "%title"
+center = "%artists"
+right = "%saved %duration"
+
+[keybindings]
+"Backspace" = "quit" 
+"t" = "next" 
+"e" = "previous" 
+"Tab" = "focus library"
+"Space" = "playpause"
+"Alt+e" = "search"
