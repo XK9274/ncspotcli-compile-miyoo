@@ -5,6 +5,8 @@
 - Bit of a novelty/gimmick this app really but it's been a fun build/process and i've learnt a lot about the MMP/embedded environment from it.
 - If you have a lot of background apps running (filebrowser etc) it may be worth killing them to free up some memory
 - There's other spotify options that may be better (designed for embedded found by kebabstorm) which i'll also look into
+- Headphones work
+
 ![ncspot_000](https://github.com/XK9274/ncspotcli-compile-miyoo/assets/47260768/2e145ea8-f3a4-42bd-85b2-6a83ecaf72b7)
 ![ncspot_000s](https://github.com/XK9274/ncspotcli-compile-miyoo/assets/47260768/0bb71918-a309-438d-949a-9ffc92930e32)
 
