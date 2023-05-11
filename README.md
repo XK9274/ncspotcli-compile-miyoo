@@ -75,7 +75,7 @@ https://github.com/hrkfdn/ncspot/blob/main/doc/users.md#vim-like-commands this i
 - "t" = "next" # This is the R1 button
 - "e" = "previous" # This is the L1 button
 - "Tab" = "focus library" # This is the L2 Button
-- "Space" = "play"  # This is the A button
+- "Space" = "playpause"  # This is the A button
 - "Alt+e" = "search" # This is the Y & L1 buttons
 
 ### Theme setup
