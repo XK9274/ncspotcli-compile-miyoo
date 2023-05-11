@@ -49,6 +49,7 @@ This will build the requirements with NO audio backends, it will rely on the aud
 - You can't background the app, no really, the mmp really doesn't have enough memory to run Main and Spotify.
 - It's the same story if you turn the screen off, the audio will stop.
 - Sometimes audio gets buggy, tap the power button twice to repair
+- Sometimes just changes song all on its own
 
 ### terminal
 - May try a completely different terminal
