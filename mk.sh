@@ -395,7 +395,7 @@ if [ -f "$FIN_BIN_DIR/bin/$BIN_NAME" ]; then # Check if the bin file for BINNAME
 	rm  $ROOTDIR/$BIN_NAME/lib/libpanel.so.6
 	cp  $ROOTDIR/$BIN_NAME/lib/libpanel.so.6.4 $ROOTDIR/$BIN_NAME/lib/libpanel.so.6
 	rm  $ROOTDIR/$BIN_NAME/lib/libncurses.so.6
-	cp  $ROOTDIR/$BIN_NAME/lib/libpanel.so.6.4 $ROOTDIR/$BIN_NAME/lib/libncurses.so.6
+	cp  $ROOTDIR/$BIN_NAME/lib/libncurses.so.6.4 $ROOTDIR/$BIN_NAME/lib/libncurses.so.6
 	rm  $ROOTDIR/$BIN_NAME/lib/libtinfo.so.6
 	cp  $ROOTDIR/$BIN_NAME/lib/libtinfo.so.6.4 $ROOTDIR/$BIN_NAME/lib/libtinfo.so.6
 	rm  $ROOTDIR/$BIN_NAME/lib/libform.so.6
