@@ -64,7 +64,7 @@ This will build the requirements with NO audio backends, it will rely on the aud
 - ~May try a completely different terminal~ Use eggs new terminal
 - Terminal app source needs editing to provide some more keys from SDLK that we can use as volume
 - Bind some volume keys. 
-- ~New font as the current pixel one doesn't display great for ncurses built tuis~
+- ~New font as the current pixel one doesn't display great for ncurses built tuis~ Use eggs new terminal
 - There's no keyboard with ncspot so you NEED to use the terminal keyboard to login (select is tab to next field), you can then hide the keyboard with the X button
 
 ### Audio
