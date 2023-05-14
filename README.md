@@ -10,8 +10,13 @@
 ![ncspot_000](https://github.com/XK9274/ncspotcli-compile-miyoo/assets/47260768/2e145ea8-f3a4-42bd-85b2-6a83ecaf72b7)
 ![ncspot_000s](https://github.com/XK9274/ncspotcli-compile-miyoo/assets/47260768/0bb71918-a309-438d-949a-9ffc92930e32)
 
+AND with eggs new terminal (larger, clearner font) found here: https://www.dropbox.com/s/56pr1io9e82po8s/Terminal_640x480.zip (install st in .tmp_update/bin)
+
+![ncspot_000](https://github.com/XK9274/ncspotcli-compile-miyoo/assets/47260768/ac0ac14c-da4b-4650-bd99-df4e005984bd)
+![ncspot_005](https://github.com/XK9274/ncspotcli-compile-miyoo/assets/47260768/b78c4e84-7d02-4879-9ff3-015a6315d090)
+
 ### Credits:
-- eggs for his terminal: https://github.com/OnionUI/app-Terminal
+- eggs for his terminal (and the new terminal!): https://github.com/OnionUI/app-Terminal https://www.dropbox.com/s/56pr1io9e82po8s/Terminal_640x480.zip
 - ncspot: https://github.com/hrkfdn/ncspot
 - Spotify logo usage: https://developer.spotify.com/documentation/design#using-our-logo
 ### Usage
