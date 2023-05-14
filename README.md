@@ -86,7 +86,6 @@ https://github.com/hrkfdn/ncspot/blob/main/doc/users.md#vim-like-commands this i
 - "e" = "previous" # This is the L1 button
 - "Tab" = "focus library" # This is the L2 Button
 - "Space" = "playpause"  # This is the A button
-- "Alt+e" = "search" # This is the Y & L1 buttons
 
 ### Theme setup
 - Edit the config.toml to suit your theme needs, it should accept hex but it doesn't very well and i think this is an st (terminal app) thing as it works fine if you launch from putty.
