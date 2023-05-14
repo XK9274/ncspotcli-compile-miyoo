@@ -70,7 +70,7 @@ This will build the requirements with NO audio backends, it will rely on the aud
 - Now uses built in audioserver, no longer pops when changing song (still uses audiobridge as the bridge across ncspot and audioserver in absence of an ncspot sdl backend/sink)
 - Added a buffer to audiobridge, added rewind for EOF but not sure this is working on STDIN
 - Full volume audio is distorted - Use 75% with the volume keys or change the ncspot volume with the keyboard.
-- ncspot starts every song with the volume set in the app, not the volume set in the audiobridge. You can change this by bringing up the keyboard with the X button and pressing +/- (volume is in the far bottom right of the screen)
+- Now handles volume correctly based on the audioserver vals
 - Now correctly handles mute/unmute with the mmp keys
 
 ### Key bindings
