@@ -54,7 +54,7 @@ This will build the requirements with NO audio backends, it will rely on the aud
 - The current credentials file gets stored in /tmp/ so it resets every boot, i'm tempted to leave it this way due to the nature of the MMPs security - this file contains tokens and secrets
 - You need a premium account, no getting around this - it's a librespot/spotify thing
 - You can't background the app, terminal closing will kill the child processes
-- You can't background the app, no really, the mmp really doesn't have enough memory to run Main and Spotify.
+- You can't background the app, no really, the mmp really doesn't have enough memory to run Main and ncspot.
 - It's the same story if you turn the screen off, the audio will stop.
 - Sometimes audio gets buggy, tap the power button twice to repair
 - Sometimes just changes song all on its own
@@ -70,7 +70,7 @@ This will build the requirements with NO audio backends, it will rely on the aud
 ### Audio
 - I'll try to modify to use the native audioserver, currently it's using an audiobridge i made that ncspot calls as a child process, it receives raw audio on stdin from ncspot and sends this formatted to /dev/dsp. ncspot handles this child process by calling/killing it when a new song is played which means we get the pop from the speaker everytime a song plays. This needs editing to allow it to pass audio directly to the built in audioserver (somehow) - currently ncspot doesn't have a native SDL backend so we'll probably always get the pop whether we use audiobridge or audioserver
 - audiobridge sometimes has *issues* but it's a very simple bridge code-wise
-- Full volume audio is distorted
+- Full volume audio is distorted - Use 75% with the volume keys or change the ncspot volume with the keyboard.
 - ncspot starts every song with the volume set in the app, not the volume set in the audiobridge. You can change this by bringing up the keyboard with the X button and pressing +/- (volume is in the far bottom right of the screen)
 
 ### Key bindings
