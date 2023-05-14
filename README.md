@@ -72,6 +72,7 @@ This will build the requirements with NO audio backends, it will rely on the aud
 - Full volume audio is distorted - Use 75% with the volume keys or change the ncspot volume with the keyboard.
 - Now handles volume correctly based on the audioserver vals
 - Now correctly handles mute/unmute with the mmp keys
+- Skipping forwards or backwards in the song will stop audio, not sure why.
 
 ### Key bindings
 ## These are the key bindings due to how the terminal app (and ncspot) are setup
