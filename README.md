@@ -68,6 +68,7 @@ This will build the requirements with NO audio backends, it will rely on the aud
 - There's no keyboard with ncspot so you NEED to use the terminal keyboard to login (select is tab to next field), you can then hide the keyboard with the X button
 
 ### Audio
+- Sometimes audio will stop after around 2 minutes 20 seconds (on my mmp atleast)
 - Occasionally songs wont follow on, it will go silent after a song finishes and the next song won't play
 - Now uses built in audioserver, no longer pops when changing song (still uses audiobridge as the bridge across ncspot and audioserver in absence of an ncspot sdl backend/sink)
 - Added a buffer to audiobridge, added rewind for EOF but not sure this is working on STDIN
