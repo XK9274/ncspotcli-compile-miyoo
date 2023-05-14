@@ -47,8 +47,7 @@ This will build the requirements with NO audio backends, it will rely on the aud
 ## TODO/Issues: 
 
 ### Performance
-- Not great..
-- Not bad if you dont have the mmp loaded up with apps in the background, not *great* all round though
+- Audio has improved a huge amount since swapping to audioserver
 
 ### App
 - The current credentials file gets stored in /tmp/ so it resets every boot, i'm tempted to leave it this way due to the nature of the MMPs security - this file contains tokens and secrets
