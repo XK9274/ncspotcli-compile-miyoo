@@ -53,12 +53,12 @@ This will build the requirements with NO audio backends, it will rely on the aud
 ### App
 - The current credentials file gets stored in /tmp/ so it resets every boot, i'm tempted to leave it this way due to the nature of the MMPs security - this file contains tokens and secrets
 - You need a premium account, no getting around this - it's a librespot/spotify thing
-- You can't background the app, terminal closing will kill the child processes
+- You can't background the app, terminal closing will kill the child processes'
 - You can't background the app, no really, the mmp really doesn't have enough memory to run Main and ncspot.
 - It's the same story if you turn the screen off, the audio will stop.
-- Sometimes audio gets buggy, tap the power button twice to repair
-- Sometimes just changes song all on its own
-- You'll potentially get a stutter about 10 seconds in, this is something to do with ncspot downloading song data (a p will appear at the end of the rows)
+- ~Sometimes audio gets buggy, tap the power button twice to repair~ \\ This is resolved since preloading with built in audioserver
+- Sometimes just changes song all on its own \\ Very rare
+- You'll potentially get a stutter about 10 seconds in, this is ncspot downloading track and databases
 
 ### terminal
 - ~May try a completely different terminal~ Use eggs new terminal
@@ -68,10 +68,11 @@ This will build the requirements with NO audio backends, it will rely on the aud
 - There's no keyboard with ncspot so you NEED to use the terminal keyboard to login (select is tab to next field), you can then hide the keyboard with the X button
 
 ### Audio
-- Now uses built in audioserver, no longer pops when changing song (with audiobridge)
+- Now uses built in audioserver, no longer pops when changing song (still uses audiobridge as the bridge across ncspot and audioserver in absence of an ncspot sdl backend/sink)
 - Added a buffer to audiobridge, added rewind for EOF but not sure this is working on STDIN
 - Full volume audio is distorted - Use 75% with the volume keys or change the ncspot volume with the keyboard.
 - ncspot starts every song with the volume set in the app, not the volume set in the audiobridge. You can change this by bringing up the keyboard with the X button and pressing +/- (volume is in the far bottom right of the screen)
+- Now correctly handles mute/unmute with the mmp keys
 
 ### Key bindings
 ## These are the key bindings due to how the terminal app (and ncspot) are setup
