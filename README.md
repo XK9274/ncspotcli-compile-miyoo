@@ -50,6 +50,7 @@ This will build the requirements with NO audio backends, it will rely on the aud
 - Audio has improved a huge amount since swapping to audioserver
 
 ### App
+- The "tracks" page takes a couple of seconds to load if you have a ton of songs in your liked songs
 - The current credentials file gets stored in /tmp/ so it resets every boot, i'm tempted to leave it this way due to the nature of the MMPs security - this file contains tokens and secrets
 - You need a premium account, no getting around this - it's a librespot/spotify thing
 - You can't background the app, terminal closing will kill the child processes'
