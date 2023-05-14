@@ -24,6 +24,9 @@ AND with eggs new terminal (larger, clearner font) found here: https://www.dropb
 - or
 - Copy the ncspot folder to your App folder
 
+On the login screen:
+Use the keyboard to input username, press the `Select` button to tab down, input password, press `Select` button again to tab to login and press start. When logged in press `X` to hide the keyboard.
+
 You may need to restart your MMP
 
 ### Building
@@ -55,6 +58,7 @@ This will build the requirements with NO audio backends, it will rely on the aud
 - It's the same story if you turn the screen off, the audio will stop.
 - Sometimes audio gets buggy, tap the power button twice to repair
 - Sometimes just changes song all on its own
+- You'll potentially get a stutter about 10 seconds in, this is something to do with ncspot downloading song data (a p will appear at the end of the rows)
 
 ### terminal
 - ~May try a completely different terminal~ Use eggs new terminal
