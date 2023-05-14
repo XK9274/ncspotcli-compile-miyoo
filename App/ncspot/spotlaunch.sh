@@ -7,12 +7,10 @@ export LD_LIBRARY_PATH="$sysdir/ncspot/lib:/lib:/config/lib:$miyoodir/lib:$sysdi
 if pgrep "ntpd" > /dev/null
 then
     echo "NTPD already running"
-	echo "Connecting to Spotify..."
 else   
 	echo "Trying to set time and date for the spotify certificate check"
     export TZ=UTC+1
     ntpd -p time.google.com
-	echo "Connecting to Spotify..."
 fi
 
 #Setup some env vars

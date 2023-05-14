@@ -1,10 +1,12 @@
 backend = "subprocess"
 backend_device = "/mnt/SDCARD/App/ncspot/bin/audiobridge"
+audio_cache = true
+audio_cache_size = 1024
 
 [theme]
 background = "black"
 primary = "light white"
-secondary = "light black"
+secondary = "black"
 title = "green"
 playing = "green"
 playing_selected = "black"
@@ -34,3 +36,5 @@ right = "%saved %duration"
 "Tab" = "focus library"
 "Space" = "playpause"
 "Alt+e" = "search"
+
+repeat = "playlist"
