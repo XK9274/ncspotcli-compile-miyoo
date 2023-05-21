@@ -36,5 +36,3 @@ right = "%saved %duration"
 "Tab" = "focus library"
 "Space" = "playpause"
 "Alt+e" = "search"
-
-repeat = "playlist"
