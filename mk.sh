@@ -64,6 +64,8 @@ export LDFLAGS="-L/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/lib"
 export LOGFILE=./logs/buildtracker.txt # set a full log file
 mkdir $ROOTDIR/logs
 
+check_dev_tools
+
 #Script header section
 
 echo -e "\033[32m⠀⠀⠀⠀⠀⠀⠀            ⠀⠀⠀⠀⠀⠀⠀"
