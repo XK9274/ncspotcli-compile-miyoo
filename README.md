@@ -44,6 +44,12 @@ copy the mk.sh file to your workspace
 
 `source mk.sh`
 
+Wait for it to build
+
+Then look for the folder called /workspace/ncspot - this should contain everything you need. 
+
+Look at the included launch.sh & /config/config.toml for info. 
+
 This will build the requirements with NO audio backends, it will rely on the audiobridge.
 
 ## TODO/Issues: 
