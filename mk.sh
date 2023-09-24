@@ -1,3 +1,5 @@
+start_time=$(date +%s)
+
 unset urls
 unset files
 unset log_files
