@@ -1,6 +1,8 @@
 # ncspot Spotify client for the MMP.
 ## audiobridge - https://github.com/XK9274/audiobridge-miyoo
-## splash - https://github.com/XK9274/splash-miyoo
+## rapid-splash - [https://github.com/XK9274/splash-miyoo](https://github.com/XK9274/animated-splash-miyoo)
+
+https://github.com/XK9274/animated-splash-miyoo/assets/47260768/3dace5c3-8116-4076-b944-a97606b43588
 
 - Bit of a novelty/gimmick this app really but it's been a fun build/process and i've learnt a lot about the MMP/embedded environment from it.
 - If you have a lot of background apps running (filebrowser etc) it may be worth killing them to free up some memory
@@ -41,6 +43,12 @@ make shell
 copy the mk.sh file to your workspace
 
 `source mk.sh`
+
+Wait for it to build
+
+Then look for the folder called /workspace/ncspot - this should contain everything you need. 
+
+Look at the included launch.sh & /config/config.toml for info. 
 
 This will build the requirements with NO audio backends, it will rely on the audiobridge.
 
